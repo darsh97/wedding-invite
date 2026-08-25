@@ -36,24 +36,34 @@ const events = [
 
 const photos = [
   {
-    src: '/images/train-window.jpeg',
-    alt: 'Arunkumar and Jayashree smiling at each other during a train journey',
-    caption: 'Every journey is better together.',
+    src: '/images/hero-closeup.jpeg',
+    alt: 'Arunkumar and Jayashree in an intimate forehead-to-forehead portrait',
+    caption: 'Where words end, we begin.',
   },
   {
-    src: '/images/engagement-portrait.jpeg',
-    alt: 'Arunkumar and Jayashree dressed for their engagement celebration',
-    caption: 'A promise, made with love.',
+    src: '/images/city-standing.jpeg',
+    alt: 'Arunkumar and Jayashree walking together in matching maroon on a city street',
+    caption: 'Side by side, always.',
   },
   {
-    src: '/images/together-selfie.jpeg',
-    alt: 'Arunkumar and Jayashree taking a happy selfie together',
-    caption: 'A thousand little moments.',
+    src: '/images/beach-lift.jpeg',
+    alt: 'Arunkumar lifting Jayashree on the beach with the ocean behind them',
+    caption: 'You lift me higher.',
   },
   {
-    src: '/images/holding-hands.jpeg',
-    alt: 'Arunkumar and Jayashree holding hands',
-    caption: 'Hand in hand, always.',
+    src: '/images/beach-spin.jpeg',
+    alt: 'Arunkumar and Jayashree spinning together on the beach',
+    caption: 'Dancing through life.',
+  },
+  {
+    src: '/images/city-bollard.jpeg',
+    alt: 'Arunkumar and Jayashree leaning on each other surrounded by red bollards',
+    caption: 'A quiet kind of love.',
+  },
+  {
+    src: '/images/beach-sand.jpeg',
+    alt: 'Arunkumar and Jayashree together on the sand by the waves',
+    caption: 'Written in the sand, sealed in the heart.',
   },
 ]
 
@@ -154,8 +164,8 @@ function App() {
         <section className="hero-section" id="home" tabIndex="-1">
           <img
             className="hero-image"
-            src="/images/engagement-portrait.jpeg"
-            alt="Arunkumar and Jayashree together"
+            src="/images/hero-closeup.jpeg"
+            alt="Arunkumar and Jayashree in a close intimate portrait"
           />
           <div className="hero-shade" />
           <div className="hero-copy">
@@ -174,6 +184,7 @@ function App() {
         </section>
 
         <section className="countdown-section" id="countdown" aria-labelledby="countdown-title">
+          <div className="countdown-bg" aria-hidden="true" />
           <div className="section-heading">
             <Flower2 aria-hidden="true" />
             <span className="eyebrow">The happy wait</span>
@@ -226,8 +237,8 @@ function App() {
             <span className="eyebrow">A story still unfolding</span>
             <h2 id="moments-title">Our favourite kind of ordinary</h2>
             <p>
-              From quiet journeys to joyful promises, here are a few pieces of the
-              story that brought us here.
+              From city strolls in matching maroon to barefoot dances by the sea,
+              here are our favourite pieces of this story.
             </p>
           </div>
           <div className="photo-grid">
