@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap');
 
 :root {
-  --ivory: #f7f0e5;
+  --ivory: #f8f0e3;
   --paper: #fffaf2;
-  --ink: #29251f;
-  --muted: #746b61;
-  --emerald: #103f35;
-  --emerald-deep: #082b25;
-  --vermilion: #a83a31;
-  --gold: #c79a48;
-  --peach: #e8b99f;
-  --line: rgba(41, 37, 31, 0.18);
+  --ink: #321c1e;
+  --muted: #79635e;
+  --emerald: #741d2d;
+  --emerald-deep: #420913;
+  --vermilion: #a84a3f;
+  --gold: #d2aa52;
+  --peach: #d9a29c;
+  --line: rgba(84, 29, 39, 0.18);
   --serif: 'Cormorant Garamond', Georgia, serif;
   --sans: 'Manrope', 'Trebuchet MS', sans-serif;
   color: var(--ink);
@@ -32,7 +32,7 @@ body {
   margin: 0;
   min-width: 320px;
   background:
-    linear-gradient(rgba(199, 154, 72, 0.035) 1px, transparent 1px),
+    linear-gradient(rgba(210, 170, 82, 0.05) 1px, transparent 1px),
     var(--ivory);
   background-size: 100% 24px;
 }
@@ -94,7 +94,7 @@ img {
   justify-content: space-between;
   padding: 0 5vw;
   color: #fff7ea;
-  background: rgba(8, 43, 37, 0.92);
+  background: rgba(66, 9, 19, 0.94);
   border-bottom: 1px solid rgba(255, 255, 255, 0.13);
   opacity: 0;
   transform: translateY(-100%);
@@ -174,8 +174,8 @@ img {
   width: 50.5%;
   background-color: var(--emerald);
   background-image:
-    linear-gradient(45deg, transparent 46%, rgba(199, 154, 72, 0.12) 47%, rgba(199, 154, 72, 0.12) 53%, transparent 54%),
-    linear-gradient(-45deg, transparent 46%, rgba(199, 154, 72, 0.08) 47%, rgba(199, 154, 72, 0.08) 53%, transparent 54%);
+    linear-gradient(45deg, transparent 46%, rgba(210, 170, 82, 0.14) 47%, rgba(210, 170, 82, 0.14) 53%, transparent 54%),
+    linear-gradient(-45deg, transparent 46%, rgba(210, 170, 82, 0.09) 47%, rgba(210, 170, 82, 0.09) 53%, transparent 54%);
   background-size: 42px 42px;
   transition: transform 1s cubic-bezier(0.76, 0, 0.24, 1);
 }
@@ -341,8 +341,8 @@ img {
 .hero-shade {
   z-index: -1;
   background:
-    linear-gradient(to top, rgba(5, 24, 20, 0.94) 0%, rgba(7, 31, 26, 0.35) 46%, rgba(7, 31, 26, 0.12) 70%),
-    linear-gradient(to right, rgba(8, 43, 37, 0.2), transparent 60%);
+    linear-gradient(to top, rgba(45, 5, 14, 0.95) 0%, rgba(66, 9, 19, 0.38) 46%, rgba(66, 9, 19, 0.13) 70%),
+    linear-gradient(to right, rgba(66, 9, 19, 0.22), transparent 60%);
 }
 
 .hero-copy {
@@ -507,7 +507,7 @@ img {
   padding: 6rem max(5vw, calc((100vw - 1180px) / 2));
   color: #fffaf2;
   background:
-    linear-gradient(135deg, transparent 0 48%, rgba(199, 154, 72, 0.04) 48% 52%, transparent 52%),
+    linear-gradient(135deg, transparent 0 48%, rgba(210, 170, 82, 0.055) 48% 52%, transparent 52%),
     var(--emerald-deep);
   background-size: 70px 70px;
   scroll-margin-top: 64px;
@@ -544,14 +544,14 @@ img {
 }
 
 .event-card:nth-child(2) {
-  background: #e8b99f;
+  background: #e5bdb4;
 }
 
 .event-number {
   position: absolute;
   top: -1.8rem;
   right: 1rem;
-  color: rgba(16, 63, 53, 0.08);
+  color: rgba(116, 29, 45, 0.09);
   font-family: var(--serif);
   font-size: 11rem;
   font-weight: 700;
@@ -590,7 +590,7 @@ img {
 .event-note {
   max-width: 370px;
   margin: 1rem 0 2.5rem;
-  color: #665e56;
+  color: #6f5753;
   font-family: var(--serif);
   font-size: 1.15rem;
   line-height: 1.45;
@@ -684,7 +684,7 @@ img {
   left: 0;
   padding: 3rem 1rem 1rem;
   color: #fff;
-  background: linear-gradient(to top, rgba(8, 43, 37, 0.9), transparent);
+  background: linear-gradient(to top, rgba(66, 9, 19, 0.92), transparent);
   font-family: var(--serif);
   font-size: 1rem;
 }
@@ -725,14 +725,14 @@ img {
   display: grid;
   min-height: 620px;
   grid-template-columns: 1.1fr 0.9fr;
-  background: #dfb19b;
+  background: #e2b8ae;
   scroll-margin-top: 64px;
 }
 
 .venue-photo {
   min-height: 580px;
   background-image:
-    linear-gradient(to right, transparent 70%, rgba(223, 177, 155, 0.18)),
+    linear-gradient(to right, transparent 70%, rgba(226, 184, 174, 0.22)),
     url('/images/train-window.jpeg');
   background-position: center 38%;
   background-size: cover;
@@ -751,7 +751,7 @@ img {
 }
 
 .venue-copy p {
-  color: #55493f;
+  color: #62494b;
 }
 
 .primary-button {
@@ -779,7 +779,7 @@ img {
   padding: 6rem 1.5rem;
   text-align: center;
   background:
-    linear-gradient(90deg, transparent 49.5%, rgba(168, 58, 49, 0.08) 50%, transparent 50.5%),
+    linear-gradient(90deg, transparent 49.5%, rgba(116, 29, 45, 0.08) 50%, transparent 50.5%),
     var(--ivory);
   background-size: 46px 100%;
 }
