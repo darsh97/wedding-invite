@@ -36,9 +36,9 @@ const events = [
 
 const photos = [
   {
-    src: '/images/hero-closeup.jpeg',
-    alt: 'Arunkumar and Jayashree in an intimate forehead-to-forehead portrait',
-    caption: 'Where words end, we begin.',
+    src: '/images/city-pose.jpeg',
+    alt: 'Arunkumar and Jayashree standing together in matching maroon',
+    caption: 'Together looks good on us.',
   },
   {
     src: '/images/city-standing.jpeg',

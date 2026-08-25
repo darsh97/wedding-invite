@@ -752,6 +752,10 @@ img {
   grid-row: 6 / 11;
 }
 
+.photo-6 img {
+  object-position: right 40%;
+}
+
 .venue-section {
   display: grid;
   min-height: 620px;
