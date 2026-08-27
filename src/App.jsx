@@ -36,14 +36,9 @@ const events = [
 
 const photos = [
   {
-    src: '/images/city-pose.jpeg',
-    alt: 'Arunkumar and Jayashree standing together in matching maroon',
-    caption: 'Together looks good on us.',
-  },
-  {
-    src: '/images/beach-sand.jpeg',
-    alt: 'Arunkumar and Jayashree together on the sand by the waves',
-    caption: 'Written in the sand, sealed in the heart.',
+    src: '/images/beach-shoes.jpeg',
+    alt: 'Arunkumar and Jayashree walking together on the beach behind their shoes',
+    caption: 'Wherever life takes us, we walk there together.',
   },
 ]
 
@@ -217,8 +212,7 @@ function App() {
             <span className="eyebrow">A story still unfolding</span>
             <h2 id="moments-title">Our favourite kind of ordinary</h2>
             <p>
-              From city strolls in matching maroon to barefoot dances by the sea,
-              here are our favourite pieces of this story.
+              Barefoot by the sea, with a lifetime of steps still waiting ahead.
             </p>
           </div>
           <div className="photo-grid">
