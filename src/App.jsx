@@ -41,26 +41,6 @@ const photos = [
     caption: 'Together looks good on us.',
   },
   {
-    src: '/images/city-standing.jpeg',
-    alt: 'Arunkumar and Jayashree walking together in matching maroon on a city street',
-    caption: 'Side by side, always.',
-  },
-  {
-    src: '/images/beach-lift.jpeg',
-    alt: 'Arunkumar lifting Jayashree on the beach with the ocean behind them',
-    caption: 'You lift me higher.',
-  },
-  {
-    src: '/images/beach-spin.jpeg',
-    alt: 'Arunkumar and Jayashree spinning together on the beach',
-    caption: 'Dancing through life.',
-  },
-  {
-    src: '/images/city-bollard.jpeg',
-    alt: 'Arunkumar and Jayashree leaning on each other surrounded by red bollards',
-    caption: 'A quiet kind of love.',
-  },
-  {
     src: '/images/beach-sand.jpeg',
     alt: 'Arunkumar and Jayashree together on the sand by the waves',
     caption: 'Written in the sand, sealed in the heart.',
@@ -164,8 +144,8 @@ function App() {
         <section className="hero-section" id="home" tabIndex="-1">
           <img
             className="hero-image"
-            src="/images/hero-closeup.jpeg"
-            alt="Arunkumar and Jayashree in a close intimate portrait"
+            src="/images/hands-hero.jpeg"
+            alt="Arunkumar and Jayashree holding hands by the sea"
           />
           <div className="hero-shade" />
           <div className="hero-copy">
